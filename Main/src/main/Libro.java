@@ -24,7 +24,6 @@ public class Libro {
         this.numEjemplaresPrestados = numEjemplaresPrestados;
     }
 
-    // Getters y setters
     public String getAutor() {
         return autor;
     }
@@ -57,7 +56,6 @@ public class Libro {
         this.numEjemplaresPrestados = numEjemplaresPrestados;
     }
 
-    // Métodos de operación
     public boolean prestamo() {
         if (numEjemplaresPrestados < numEjemplares) {
             numEjemplaresPrestados++;
